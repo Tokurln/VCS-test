@@ -1,6 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 int main() {
+    printf("What is your name?\n> ");
+    char name[50];
+    scanf("%s", name);
+    printf("Hello, %s!\n", name);
     printf("Rolling a dice...\n");
     int dice1 = rand() % 6 + 1;
     int dice2 = rand() % 6 + 1;
