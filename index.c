@@ -7,7 +7,7 @@ int main() {
     char name[50];
     scanf("%s", name);
     printf("Hello, %s!\n", name);
-    printf("Rolling a dice...\n");
+    printf("Rolling the dice...\n");
     int dice1 = rand() % 6 + 1;
     int dice2 = rand() % 6 + 1;
     printf("Die 1: %d\n", dice1);
